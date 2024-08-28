@@ -1,0 +1,113 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    font-family: "Young Serif", serif;
+       
+}
+.container{
+    padding: 40px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-one__contact{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.section-one__name{
+    font-size: 50px;
+}
+.section-one__role{
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+.section-five{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+.section-five__title a{
+    color: skyblue;
+    text-decoration: none;
+}
+.section-three li,.section-four li{
+    list-style: none;
+}
+.section-three{
+    background-color: #6462fd;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.section-four{
+    background-color: #fe7517;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.Contact-form{
+    margin-top: 20px;
+}
+.Contact-form__input,.Contact-form__textarea,.Contact-form__submit{
+   margin-top: 20px;
+}
+.Contact-form__input{
+    border-style:none ;
+    border-bottom:solid 1px black ;
+    padding: 10px;
+}
+.Contact-form__textarea{
+  
+    border-bottom:solid 1px black ;
+    padding: 10px;
+   
+    
+}
+.Contact-form__submit{
+  padding: 10px  20px 10px 20px;
+  background-color: orangered;
+  color: white;
+  border-style: none;
+
+}
+.Contact-form__submit:hover{
+    background-color: rgb(8, 8, 8);
+    color: orangered;
+    border-radius: 5px;
+}
+.section-one a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
